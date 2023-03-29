@@ -1,5 +1,4 @@
-# SEO
-Learn and Understand SEO🔍
+# SEO Optimization🔍
 
 1. Conduct keyword research: Identify the keywords and phrases that your target audience is using to search for information related to your industry or niche. Use keyword research tools to find relevant keywords and incorporate them into your content.
 
