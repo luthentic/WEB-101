@@ -23,3 +23,35 @@
 8. Social search engine optimization meta tag OpenGraph
 9. Use secure protocol (HTTPS)
 
+---
+# Websecurity🔒
+
+&nbsp;
+
+1. ***Injection Attacks:*** Injection attacks occur when attackers inject malicious code into a website or application. This can be done through forms, URL parameters, or cookies. Attackers can use injection attacks to steal data, modify data, or execute malicious code.
+
+&nbsp;
+
+2. ***Cross-Site Scripting (XSS):*** XSS attacks occur when attackers inject malicious code into a website or application that is then executed by users who visit the site. This can allow attackers to steal data, modify data, or execute malicious code on users' computers.
+
+&nbsp;
+
+3. ***Cross-Site Request Forgery (CSRF):*** CSRF attacks occur when attackers trick users into executing actions on a website or application without their knowledge or consent. This can allow attackers to perform actions on behalf of the user, such as changing their password or making unauthorized purchases.
+
+&nbsp;
+
+4. ***Broken Authentication and Session Management:*** Authentication and session management are critical components of web and app security. If these systems are not implemented properly, attackers can easily gain access to sensitive data or perform unauthorized actions.
+
+&nbsp;
+
+5. ***Insufficient Authorization:*** Authorization is the process of determining what actions a user is allowed to perform within a system. If authorization is not implemented properly, attackers can gain access to sensitive data or perform unauthorized actions.
+
+&nbsp;
+
+6. ***Insecure Communications:*** Insecure communications can allow attackers to intercept and read sensitive data, such as usernames, passwords, or credit card information. This can occur when websites or apps use unencrypted connections, or when they use weak encryption algorithms.
+
+&nbsp;
+
+7. ***Malicious File Uploads:*** Malicious file uploads occur when attackers upload files containing malware or other malicious code to a website or application. This can allow attackers to gain access to sensitive data or execute code on the server.
+
+
