@@ -31,7 +31,7 @@
 9. Use secure protocol (HTTPS)
 
 ---
-## Security🔒
+## Security
 
 
 1. **Injection Attacks:** Injection attacks occur when attackers inject malicious code into a website or application. This can be done through forms, URL parameters, or cookies. Attackers can use injection attacks to steal data, modify data, or execute malicious code.
