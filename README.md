@@ -3,6 +3,10 @@
     + Optimization
     + SEO Checklist
 - [Security](#security)
+    + Injection Attacks
+    + XSS
+    + CSRF
+    + XSS
 ## SEO
 ### Optimization
  
