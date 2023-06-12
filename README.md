@@ -7,6 +7,12 @@
     + XSS
     + CSRF
     + XSS
+- [Protocol](#protocol)
+    + HTTP
+    + 
+---
+
+
 ## SEO
 ### Optimization
  
@@ -58,8 +64,16 @@
 7. **Malicious File Uploads:** Malicious file uploads occur when attackers upload files containing malware or other malicious code to a website or application. This can allow attackers to gain access to sensitive data or execute code on the server.
     
 ---
-## HTTP
-**HTTP:** HTTP primarily transmitted hypermedia documents like HTML, but in recent times, it has evolved into an application-layer protocol that can transmit various forms of information, including plain text, JSON, XML, and more.
+## Protocol
+7 Application Layer: HTTP, SMTP, SNMP, FTP, Telnet, SSH & SCP, NFS, RTSP
+6 Presentation Layer: XDR, ASN.1, SMB, AFP
+5 Session Layer: TLS, SSL, ISO 8327 / CCITT X.225, RPC, NetBIOS, AppleTalk
+4 Transport Layer: TCP, UDP, RTP, SCTP, SPX, AppleTalk
+3 Network Layer: IP, ICMP, IGMP, X.25, CLNP, ARP, RARP, BGP, OSPF, RIP, IPX, DDP
+2 Data Link Layer: Ethernet, Token Ring, PPP, HDLC, Frame Relay, ISDN, ATM, Wireless LAN, FDDI
+1 Physical Layer: Wire, Wireless, Fiber Optics, Coaxial Cable, Twisted Pair, PSTN, Repeater, DSU, CSU, Modem
+    
+**HTTP:** primarily transmitted hypermedia documents like HTML, but in recent times, it has evolved into an application-layer protocol that can transmit various forms of information, including plain text, JSON, XML, and more.
 
 While it was originally designed for communication between web browsers and web servers, HTTP is now also utilized for communication with other purposes such as mobile applications and IoT devices.
 
@@ -67,7 +81,34 @@ HTTP follows the traditional client-server model, where the client establishes a
 
 HTTP is a stateless protocol, meaning that the server does not maintain any state or data between requests. However, efforts to maintain state are made using mechanisms like cookies and sessions.
 Typically, HTTP operates on top of the reliable TCP/IP layer, serving as an application protocol.
-    
+
+**GET:**
+
+A request to retrieve a specific resource. It should not be used for resource creation, modification, or deletion.
+
+**POST:**
+
+Used to create a new resource or execute a controller. Typically used when submitting form data or performing actions that result in resource creation.
+
+**PUT:**
+
+Used to update a mutable resource and should always include resource identification information. It is conventionally used to update the entire object and is less commonly used for partial updates.
+
+**PATCH:**
+
+Used for partial updates to a mutable resource and should always include resource identification information. It is typically used when updating specific fields or properties of a resource without replacing the entire object. PUT is often preferred for updating the entire object.
+
+**DELETE:**
+
+Used to remove a specific resource. Typically, the resource ID to be deleted is passed in the URI path rather than the request body.
+
+**HEAD:**
+
+Used when the client wants to retrieve only the headers of a resource without the body. It is commonly used to check for resource existence or retrieve metadata without fetching the full resource.
+
+**OPTIONS:**
+
+Used by the client to inquire about the available actions that can be performed on the server's resource. Typically, the server responds with an Allow header containing the HTTP request methods that can be used on the resource. It is often used in the context of Cross-Origin Resource Sharing (CORS).
 ![25](https://github.com/luthentic/LeeCsStudy/assets/33567830/48d754e6-ac33-40c1-a5aa-789987fb1849)
 
     
