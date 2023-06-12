@@ -37,7 +37,6 @@
 ---
 ## Security
 
-
 1. **Injection Attacks:** Injection attacks occur when attackers inject malicious code into a website or application. This can be done through forms, URL parameters, or cookies. Attackers can use injection attacks to steal data, modify data, or execute malicious code.
 
 
@@ -57,5 +56,21 @@
 
 
 7. **Malicious File Uploads:** Malicious file uploads occur when attackers upload files containing malware or other malicious code to a website or application. This can allow attackers to gain access to sensitive data or execute code on the server.
+    
+---
+## HTTP
+**HTTP:** HTTP primarily transmitted hypermedia documents like HTML, but in recent times, it has evolved into an application-layer protocol that can transmit various forms of information, including plain text, JSON, XML, and more.
+
+While it was originally designed for communication between web browsers and web servers, HTTP is now also utilized for communication with other purposes such as mobile applications and IoT devices.
+
+HTTP follows the traditional client-server model, where the client establishes a connection to generate a request and waits for the response until it is received.
+
+HTTP is a stateless protocol, meaning that the server does not maintain any state or data between requests. However, efforts to maintain state are made using mechanisms like cookies and sessions.
+Typically, HTTP operates on top of the reliable TCP/IP layer, serving as an application protocol.
+    
+![25](https://github.com/luthentic/LeeCsStudy/assets/33567830/48d754e6-ac33-40c1-a5aa-789987fb1849)
+
+    
+    
 
 
