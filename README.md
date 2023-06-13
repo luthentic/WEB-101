@@ -1,17 +1,140 @@
 # Lee's Personal CS Book
+- [DataStructure](#datastructure)
+    + LinkedList
+    + Stack
+    + Queue
+    + Tree
+    + Heap
+    + HashTable
+    + Graph
+    
+- [DesignPattern](#designpattern)
+    + Creational Design Pattern
+    + Structural Design Pattern
+    + Behavior   Design Pattern
+    
 - [SEO](#seo)
     + Optimization
     + SEO Checklist
+    
 - [Security](#security)
     + Injection Attacks
     + XSS
     + CSRF
     + XSS
+    
 - [Protocol](#protocol)
-    + HTTP
-    + 
+    
 ---
 
+## DataStructure
+
+**Linked List**
+```csharp
+```
+
+
+**Stack**
+
+**Queue**
+
+**Tree**
+
+**Heap**
+
+**HashTable**
+
+**Graph**
+
+---
+
+## DesignPattern
+
+**CreationalDesign Pattern**
+
+`
+The creational patterns encapsulate the information about which specific classes the system uses. They completely hide the details of how instances of these classes are created and how they fit together. 
+`
+
+`
+In other words, creational patterns encapsulate the creation and composition of objects, providing flexibility so that the program structure is not heavily affected even if a specific object is created or changed. 
+`
+
+`
+They promote reusability, flexibility, and maintainability by abstracting the process of object instantiation. These patterns can be used to instantiate objects in various ways, such as using inheritance, interfaces, or delegation, depending on the specific requirements and constraints of the application.
+`
+
+   + Factory Pattern
+    
+   + Abstract Factory Pattern
+
+   + Builder Pattern
+
+   + Prototype Pattern
+   
+   + Singleton Pattern
+   
+**StructuralDesign Pattern**
+
+`
+Structural patterns are design patterns that involve combining classes or objects to create larger structures. 
+`
+
+`
+For example, they can be used to combine two objects with different interfaces into a single interface or to group objects together to provide new functionality.
+`
+
+   + Adapter Pattern
+   
+   + Bridge Pattern
+   
+   + Composite Pattern
+   
+   + Decorator Pattern
+   
+   + Facade Pattern
+   
+   + Flywight Pattern
+
+   + Proxy Pattern
+ 
+**BehaviorDesign Pattern**
+
+`
+Behavioral patterns are design patterns that deal with algorithms and the distribution of responsibilities between objects or classes. 
+`
+
+`
+They focus on how to distribute tasks that cannot be performed by a single object among multiple objects, with an emphasis on minimizing the coupling between objects. 
+`
+
+`
+These patterns are typically applied to classes or objects, depending on whether the pattern primarily applies at the class level or the object level.
+`
+
+   + Chain of responsibility Pattern
+    
+   + Command Pattern
+    
+   + Interpreter Pattern
+   
+   + Iterator Pattern
+   
+   + Mediator Pattern
+    
+   + Template Mehtod Pattern
+    
+   + Visitor Pattern
+    
+   + Memonto Pattern
+    
+   + Observer Pattern
+    
+   + State Pattern
+   
+   + Strategy Pattern
+
+---
 
 ## SEO
 ### Optimization
@@ -30,6 +153,7 @@
 
 ---
 ### SEO Checklist
+
 1. robots.txt (Robot exclusion standard file), Sitemap.xml (Site map)
 2. Proper tag usage
 3. Design with clear hierarchy
@@ -39,7 +163,7 @@
 7. Make sure <alt> attribute is specific and accurate
 8. Social search engine optimization meta tag OpenGraph
 9. Use secure protocol (HTTPS)
-
+    
 ---
 ## Security
 
@@ -64,14 +188,27 @@
 7. **Malicious File Uploads:** Malicious file uploads occur when attackers upload files containing malware or other malicious code to a website or application. This can allow attackers to gain access to sensitive data or execute code on the server.
     
 ---
-## Protocol
-7 Application Layer: HTTP, SMTP, SNMP, FTP, Telnet, SSH & SCP, NFS, RTSP
-6 Presentation Layer: XDR, ASN.1, SMB, AFP
-5 Session Layer: TLS, SSL, ISO 8327 / CCITT X.225, RPC, NetBIOS, AppleTalk
-4 Transport Layer: TCP, UDP, RTP, SCTP, SPX, AppleTalk
-3 Network Layer: IP, ICMP, IGMP, X.25, CLNP, ARP, RARP, BGP, OSPF, RIP, IPX, DDP
-2 Data Link Layer: Ethernet, Token Ring, PPP, HDLC, Frame Relay, ISDN, ATM, Wireless LAN, FDDI
-1 Physical Layer: Wire, Wireless, Fiber Optics, Coaxial Cable, Twisted Pair, PSTN, Repeater, DSU, CSU, Modem
+## Protocol  
+    
+The literal meaning of the term "protocol" refers to "communication protocols necessary to facilitate smooth data communication between multiple computers or terminals." In other words, a communication protocol is exactly what the term "protocol" implies.    
+ 
+A communication protocol can be understood as an agreement or set of rules that enable communication between different entities. It provides a standardized way for devices or systems to exchange information and ensures that they can understand and interpret the data being transmitted. In simpler terms, a communication protocol can be seen as a set of conventions or agreements that govern communication, allowing devices or systems to effectively and reliably communicate with each other.
+    
+**7 Application Layer:** HTTP, SMTP, SNMP, FTP, Telnet, SSH & SCP, NFS, RTSP
+    
+**6 Presentation Layer:** XDR, ASN.1, SMB, AFP
+    
+**5 Session Layer:** TLS, SSL, ISO 8327 / CCITT X.225, RPC, NetBIOS, AppleTalk
+    
+**4 Transport Layer:** TCP, UDP, RTP, SCTP, SPX, AppleTalk
+    
+**3 Network Layer:** IP, ICMP, IGMP, X.25, CLNP, ARP, RARP, BGP, OSPF, RIP, IPX, DDP
+    
+**2 Data Link Layer:** Ethernet, Token Ring, PPP, HDLC, Frame Relay, ISDN, ATM, Wireless LAN, FDDI
+    
+**1 Physical Layer:** Wire, Wireless, Fiber Optics, Coaxial Cable, Twisted Pair, PSTN, Repeater, DSU, CSU, Modem
+    
+---
     
 **HTTP:** primarily transmitted hypermedia documents like HTML, but in recent times, it has evolved into an application-layer protocol that can transmit various forms of information, including plain text, JSON, XML, and more.
 
@@ -108,7 +245,7 @@ Used when the client wants to retrieve only the headers of a resource without th
 
 **OPTIONS:**
 
-Used by the client to inquire about the available actions that can be performed on the server's resource. Typically, the server responds with an Allow header containing the HTTP request methods that can be used on the resource. It is often used in the context of Cross-Origin Resource Sharing (CORS).
+Used by the client to inquire about the available actions that can be performed on the server's resource. Typically, the server responds with an Allow header containing the HTTP request methods that can be used on the resource. It is often used in the context of Cross-Origin Resource Sharing.
 ![25](https://github.com/luthentic/LeeCsStudy/assets/33567830/48d754e6-ac33-40c1-a5aa-789987fb1849)
 
     
