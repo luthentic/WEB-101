@@ -248,6 +248,25 @@ Used when the client wants to retrieve only the headers of a resource without th
 Used by the client to inquire about the available actions that can be performed on the server's resource. Typically, the server responds with an Allow header containing the HTTP request methods that can be used on the resource. It is often used in the context of Cross-Origin Resource Sharing.
 ![25](https://github.com/luthentic/LeeCsStudy/assets/33567830/48d754e6-ac33-40c1-a5aa-789987fb1849)
 
+---
+
+## Unity Piple lines
+
+### Built-in Rendering Pipeline:
+
+    The built-in rendering pipeline is the traditional rendering system provided by Unity. It offers a good balance between performance and visual quality and is suitable for most projects. It includes a fixed-function pipeline and supports a variety of platforms.
+
+### Scriptable Render Pipeline (SRP):
+
+    The Scriptable Render Pipeline (SRP) is a customizable rendering system introduced by Unity. It allows developers to create their own rendering pipelines tailored to their specific project requirements. It provides more flexibility and control over the rendering process compared to the built-in pipeline.
+
+### Universal Render Pipeline (URP):
+
+    The Universal Render Pipeline (URP), formerly known as the Lightweight Render Pipeline (LWRP), is a pre-built rendering pipeline optimized for performance on a wide range of platforms, including mobile devices and low-end hardware. It aims to provide a balance between efficiency and visual quality, making it suitable for projects with less demanding graphical requirements.
+
+### High Definition Render Pipeline (HDRP):
+
+    The High Definition Render Pipeline (HDRP) is a high-fidelity rendering pipeline designed to produce visually stunning graphics in Unity. It offers advanced features such as real-time ray tracing, physically based lighting, and advanced post-processing effects. HDRP is primarily intended for high-end platforms and projects that require top-notch visuals.
     
     
 
