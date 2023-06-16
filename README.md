@@ -30,9 +30,6 @@
 ## DataStructure
 
 **Linked List**
-```csharp
-```
-
 
 **Stack**
 
